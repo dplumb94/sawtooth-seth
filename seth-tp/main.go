@@ -19,12 +19,13 @@ package main
 
 import (
 	"fmt"
+	"os"
+	"syscall"
+
+	seth "./handler"
 	"github.com/hyperledger/sawtooth-sdk-go/logging"
 	"github.com/hyperledger/sawtooth-sdk-go/processor"
 	"github.com/jessevdk/go-flags"
-	"os"
-	seth "seth_tp/handler"
-	"syscall"
 )
 
 type Opts struct {

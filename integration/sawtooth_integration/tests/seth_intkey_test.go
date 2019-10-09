@@ -20,7 +20,7 @@ package tests
 import (
   "encoding/hex"
   "github.com/hyperledger/burrow/binary"
-  "seth_cli/client"
+  "github.com/hyperledger/sawtooth-seth/seth-cli/client"
   "testing"
 )
 

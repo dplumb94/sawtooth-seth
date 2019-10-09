@@ -18,11 +18,11 @@
 package handler
 
 import (
-	. "common"
+	. "github.com/hyperledger/sawtooth-seth/common"
 	"fmt"
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/sawtooth-sdk-go/processor"
-	. "protobuf/seth_pb2"
+	. "github.com/hyperledger/sawtooth-seth/protobuf/seth_pb2"
 )
 
 // -- AppState --

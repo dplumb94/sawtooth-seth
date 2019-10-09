@@ -19,15 +19,17 @@ package client
 
 import (
 	"bytes"
-	. "common"
 	"encoding/base64"
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
+	"net/http"
+
+	. "github.com/hyperledger/sawtooth-seth/protobuf/seth_pb2"
+
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/sawtooth-sdk-go/logging"
-	"net/http"
-	. "protobuf/seth_pb2"
+	. "github.com/hyperledger/sawtooth-seth/common"
 )
 
 var logger *logging.Logger = logging.Get()

@@ -18,12 +18,10 @@
 package handler
 
 import (
-	"common"
 	"encoding/hex"
 	"fmt"
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/burrow/acm"
-	"github.com/hyperledger/burrow/acm/state"
 	"github.com/hyperledger/burrow/binary"
 	"github.com/hyperledger/burrow/execution/evm"
 	"github.com/hyperledger/burrow/logging"
@@ -31,8 +29,6 @@ import (
 	"github.com/hyperledger/sawtooth-sdk-go/processor"
 	"github.com/hyperledger/sawtooth-sdk-go/protobuf/processor_pb2"
 	"github.com/hyperledger/sawtooth-sdk-go/protobuf/transaction_pb2"
-	. "protobuf/block_info_pb2"
-	. "protobuf/seth_pb2"
 )
 
 type HandlerResult struct {

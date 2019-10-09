@@ -20,7 +20,7 @@ package tests
 import (
  "bytes"
  "testing"
- c "seth_cli/client"
+ c "github.com/hyperledger/sawtooth-seth/seth-cli/client"
  "encoding/hex"
  "github.com/hyperledger/sawtooth-sdk-go/logging"
 )

@@ -19,7 +19,7 @@ package tests
 
 import (
 	"encoding/hex"
-	c "seth_cli/client"
+	c "github.com/hyperledger/sawtooth-seth/seth-cli/client"
 	"testing"
 )
 

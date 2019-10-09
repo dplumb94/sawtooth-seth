@@ -18,7 +18,7 @@
 package main
 
 import (
-	. "common"
+	. "github.com/hyperledger/sawtooth-seth/common"
 	"fmt"
 	"github.com/jessevdk/go-flags"
 	"io/ioutil"

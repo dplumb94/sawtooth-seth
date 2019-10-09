@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"github.com/jessevdk/go-flags"
 	"os"
-	. "protobuf/seth_pb2"
+	. "github.com/hyperledger/sawtooth-seth/protobuf/seth_pb2"
 	"strings"
 )
 

@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 	"github.com/jessevdk/go-flags"
-	"seth_cli/client"
+	"github.com/hyperledger/sawtooth-seth/seth-cli/client"
 	"strconv"
 )
 

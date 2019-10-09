@@ -21,8 +21,8 @@ import (
 	"encoding/hex"
 	"fmt"
 	"github.com/jessevdk/go-flags"
-	. "protobuf/seth_pb2"
-	"seth_cli/client"
+	. "github.com/hyperledger/sawtooth-seth/protobuf/seth_pb2"
+	"github.com/hyperledger/sawtooth-seth/seth-cli/client"
 )
 
 type ShowAccount struct {

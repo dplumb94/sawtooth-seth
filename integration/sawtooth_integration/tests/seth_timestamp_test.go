@@ -24,9 +24,9 @@ import (
   "fmt"
   "net/http"
   "github.com/golang/protobuf/proto"
-  c "seth_cli/client"
-  . "common"
-  . "protobuf/block_info_pb2"
+  c "github.com/hyperledger/sawtooth-seth/seth-cli/client"
+  . "github.com/hyperledger/sawtooth-seth/common"
+  . "github.com/hyperledger/sawtooth-seth/protobuf/block_info_pb2"
   "testing"
 )
 

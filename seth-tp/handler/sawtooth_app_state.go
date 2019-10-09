@@ -18,14 +18,14 @@
 package handler
 
 import (
-	. "common"
+	. "github.com/hyperledger/sawtooth-seth/common"
 	"fmt"
 	"github.com/hyperledger/burrow/acm"
 	"github.com/hyperledger/burrow/binary"
 	"github.com/hyperledger/burrow/crypto"
 	"github.com/hyperledger/burrow/permission"
 	"github.com/hyperledger/sawtooth-sdk-go/processor"
-	. "protobuf/seth_pb2"
+	. "github.com/hyperledger/sawtooth-seth/protobuf/seth_pb2"
 )
 
 // -- AppState --

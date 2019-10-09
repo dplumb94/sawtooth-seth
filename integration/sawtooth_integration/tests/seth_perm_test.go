@@ -20,9 +20,9 @@ package tests
 import (
 	"github.com/hyperledger/burrow/permission"
 	"encoding/hex"
-	"seth_cli/client"
-	. "common"
-	. "protobuf/seth_pb2"
+	"github.com/hyperledger/sawtooth-seth/seth-cli/client"
+	. "github.com/hyperledger/sawtooth-seth/common"
+	. "github.com/hyperledger/sawtooth-seth/protobuf/seth_pb2"
 	"testing"
 )
 

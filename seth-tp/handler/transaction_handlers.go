@@ -17,7 +17,7 @@
 package handler
 
 import (
-	. "common"
+	. "github.com/hyperledger/sawtooth-seth/common"
 	"encoding/hex"
 	"fmt"
 	"github.com/hyperledger/burrow/acm"
@@ -25,7 +25,7 @@ import (
 	"github.com/hyperledger/burrow/execution/evm"
 	"github.com/hyperledger/burrow/permission"
 	"github.com/hyperledger/sawtooth-sdk-go/processor"
-	. "protobuf/seth_pb2"
+	. "github.com/hyperledger/sawtooth-seth/protobuf/seth_pb2"
 	"strings"
 )
 

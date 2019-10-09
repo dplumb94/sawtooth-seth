@@ -20,7 +20,7 @@ package tests
 import (
   "encoding/hex"
   "testing"
-  . "common"
+  . "github.com/hyperledger/sawtooth-seth/common"
 )
 
 const (

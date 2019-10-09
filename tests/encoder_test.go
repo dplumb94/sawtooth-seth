@@ -3,7 +3,7 @@ package tests
 import (
     "encoding/hex"
     "testing"
-    . "seth_cli/client"
+    . "github.com/hyperledger/sawtooth-seth/seth-cli/client"
     "github.com/hyperledger/sawtooth-sdk-go/signing"
 )
 
